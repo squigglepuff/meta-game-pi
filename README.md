@@ -8,6 +8,7 @@
 GamePi OS is a simple operating system that runs on [Raspberry Pi 3 B](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/) boards that provides a slew of FOSS emulators.
 These emulators include:
 **Current List**
+
 | System | Emulator |
 |--------|----------|
 | Nintendo© 64 | [Mupen64Plus](https://mupen64plus.org/) |
@@ -24,18 +25,31 @@ The operating systems also comes with an easy to use Qt5 interface (written in C
 
 ## Roadmap
 ☑ Create repository for layer
+
 ☑ Create base system (default arm64)
+
 ☐ Add needed drivers and systems tools for Raspberry Pi 3 (rev. B) boards.
+
 ☐ Add X11 server (xorg-xserver) to system
+
 ☐ Add Python to system
+
 ☐ Add VNC support
+
 ☐ Add OpenSSH support
+
 ☐ Add Qt 5.x framework/support
+
 ☐ Create Qt5 interface
+
 ☐ Add Mupen64Plus recipe
+
 ☐ Add Dolphin recipe
+
 ☐ Add Bluetooth support for generic controllers/gamepads
+
 ☐ Add Bluetooth support for Dualshock controllers
+
 ☐ Add Bluetooth support for XBox controllers
 
 ## Building
