@@ -7,6 +7,7 @@
 ## What is "GamePi"?
 GamePi OS is a simple operating system that runs on [Raspberry Pi 3 B](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/) boards that provides a slew of FOSS emulators.
 These emulators include:
+
 **Current List**
 
 | System | Emulator |
@@ -54,17 +55,23 @@ The operating systems also comes with an easy to use Qt5 interface (written in C
 
 ## Building
 ***WARNING: CURRENTLY DOESN'T WORK AS PIECES ARE MISSING!***
+
 To build GamePi OS, you'll first need to install [Yocto 2.5.x "Sumo"](https://www.yoctoproject.org/docs/2.5.1/brief-yoctoprojectqs/brief-yoctoprojectqs.html):
+
 `git clone git://git.yoctoproject.org/poky poky`
+
 `cd poky/`
+
 `git checkout tags/yocto-2.5 -b my-yocto-2.5`
 
 Then clone this repository into your "poky" directory (same directory that holds "meta-poky" and "meta-yocto-bsp"):
+
 `git clone https://github.com/squigglepuff/meta-game-pi.git meta-game-pi`
 
 *! TODO: Add build configurations for image**
 
 Then change into the Yocto environment:
+
 `. oe-init-build-env`
 
 *! TODO: Add bitbake steps*
